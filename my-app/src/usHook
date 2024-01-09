@@ -1,0 +1,53 @@
+// import React, { useState } from 'react'
+// import './index.css';
+// const App = () => {
+
+//   const[count,setCount]=useState(0);   current + Updated=Initial
+// const incNum=()=>{
+//  setCount(count+1);
+// };
+//   return (
+//   <>
+//     <h1>{count}</h1>
+//     <div className='container'>
+//     <button onClick={incNum}>CLICK ME</button>
+//     </div>
+//     </> 
+//   )
+// }
+
+// export default App
+////////////////////////////////////////////////////////
+
+// import React,{useState} from 'react'
+// const style={
+//   fontSize:'100px',
+//   display:'flex',
+//   flexDirection:'column',
+//   alignItems:'center',
+//   justifyContent:'center'
+// }
+// const styl={
+//   alignItems:'center',
+//   justifyContent:'center',
+//   // height:'100vh'
+// }
+// let curdate=new Date().toLocaleTimeString()
+// const App = () => {
+//   const [first, setfirst] = useState(curdate);
+
+//   const newTime=()=>{
+//     let curdate=new Date().toLocaleTimeString()
+//     setfirst(curdate);
+//   }
+
+//   return (
+//     <div style={style}>
+//       <h1 >{first}</h1>
+      
+//       <button style={styl} onClick={newTime}>Get Time</button>
+//     </div>
+//   )
+// }
+
+// export default App
